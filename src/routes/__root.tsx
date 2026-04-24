@@ -41,6 +41,13 @@ export const Route = createRootRoute({
       { name: "author", content: "Companion Connect" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Companion Connect — Connection & Care for Older Adults" },
+      { name: "twitter:title", content: "Companion Connect — Connection & Care for Older Adults" },
+      { name: "description", content: "Companion Connect is a warm, accessible website designed for older adults, offering information and community features." },
+      { property: "og:description", content: "Companion Connect is a warm, accessible website designed for older adults, offering information and community features." },
+      { name: "twitter:description", content: "Companion Connect is a warm, accessible website designed for older adults, offering information and community features." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6f8b519e-0c46-4a58-9377-93cce1c0b29a/id-preview-462b2817--c2cbd629-4370-4dfe-a5ac-db4c2d03ecdf.lovable.app-1776990007653.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6f8b519e-0c46-4a58-9377-93cce1c0b29a/id-preview-462b2817--c2cbd629-4370-4dfe-a5ac-db4c2d03ecdf.lovable.app-1776990007653.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
